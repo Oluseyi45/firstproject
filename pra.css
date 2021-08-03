@@ -1,0 +1,13 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading-one{
+    display: inline;
+}
+h1{
+    width: 50%;
+    display: flex;
+}

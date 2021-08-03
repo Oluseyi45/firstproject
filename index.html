@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jacobportfolio</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<h1 id="logo">
+			<a href="#"><img src="capture.PNG" alt="" width="70px" height="70px"></a>
+		</h1>
+		<nav id="sidebar">
+			<ul>
+				<li><a href="#">work</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">blog</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</nav>  
+		<button id="menuBtn" class="fa fa-bars">Explore </button>
+		
+
+	</div>
+</header>
+
+	<section class="intro">
+		
+	  <div class="left">
+		  <h2><span>OSHONEYE</span>Jacob Oluseyi</h2>
+		  <p>I'm a technology enthusiat with interest in frontend and backend developemnt 
+			and an aspiring devops expert. I derive joy in problem solving and putting smile on every individuals that crosses my path.
+			I am keen on developing technological skills that will help in promoting the productivity of all kinds of
+		 businesses ranging from government paralstatls, private firms and small business.</p>
+
+	  </div>
+	  
+
+      <div class="right">
+          <figure class="box">
+			  <img src="organ.jpg" alt="">
+			  <figcaption class="inner">
+				  <h2>Frontend <span>developer</span></h2>
+				  <p>I am passionate about programming</p>
+			  </figcaption>
+		  </figure>
+	  </div>
+
+	</section>
+
+
+
+
+
+	<section class="party">
+
+		<div class="right">
+			<figure class="box">
+				<img src="cars.jpg" alt="" width="621" height="521">
+				<figcaption class="inner">
+					<h2>My first</h2><span>Job</span></h2>
+					<p>Cars45 Limited</p>
+				</figcaption>
+			</figure>
+
+			<figure class="box">
+				<img src="engine.png" alt="" width="621" height="521">
+				<figcaption class="inner">
+					<h2>graduate <span>Engineer</span></h2>
+					<p>@Funaab</p>
+				</figcaption>
+			</figure>
+
+			<figure class="box">
+				<img src="taiwo.png" alt="" width="621" height="521">
+				<figcaption class="inner">
+					<h2>more than an <span> uncle</span></h2>
+					<p></p>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="right">
+			<figure class="box">
+				<img src="stand.jpg"  alt=""  width="621" height="521">
+				<figcaption class="inner">
+					<h2>we all have to <span>stand</span></h2>
+					<p> on giants shoulder</p>
+				</figcaption>
+			</figure>
+
+			<figure class="box">
+				<img src="corps.jpg" alt="" width="621" height="521">
+				<figcaption class="inner">
+					<h2>PASSING OUT<span></span></h2>
+					<p>SERVICE YEAR @IBADAN</p>
+				</figcaption>
+			</figure>
+
+			<figure class="box">
+				<img src="comp.jpg" alt="" width="621" height="521">
+				<figcaption class="inner">
+					<h2>SELF <span>DISCOVERY</span></h2>
+					<p>AS A tECH ENTHUSIAST</p>
+				</figcaption>
+			</figure>
+		</div>
+
+
+
+
+
+	</section>
+
+	<footer id="footer">
+		<h1 id="logo">
+			<a href="#"><img src="capture.PNG" alt="" width="100px" height="100px"></a>
+		</h1>
+		
+		<nav id="footer-nav">
+			<ul>
+				<li><a href="#">work</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">blog</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</nav>  
+
+		<ul id="footer-icon">
+		<li><button class="fa fa-facebook">facebook</button></li>
+		<li><button class="fa fa-twitter">twitter</button></li>
+		<li><button class="fa fa-linkedin">linkedin</button></li>
+		<li><button class="fa fa-whatsapp">whatsapp</button></li>
+		</ul>
+
+		<p class="copy-right">&copy; 2021 jacky-arty web studio. All right reserved</p>
+
+	</footer>
+
+<script>
+	var menuBtn = document.getElementById("menuBtn");
+	var sidebar = document.getElementById("sidebar");
+	sidebar.style.top ='-100%';
+	menuBtn.onclick = function (){
+                if (sidebar.style.top =='-100%'){
+					sidebar.style.top = '0'
+                } else {
+                    sidebar.style.top = '-100%'
+				}
+
+
+	}
+</script>
+
+
+
+</body>
+</html>
